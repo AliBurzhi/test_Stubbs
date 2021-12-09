@@ -1,0 +1,57 @@
+.Main {
+    margin-top: 10px;
+}
+
+.NavList {
+    list-style: none;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    margin: 0;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    box-shadow: inset 1px -1px 0px #e0e0e0, inset 0px 1px 0px #e0e0e0;
+}
+
+.NavListItem {
+    padding: 8px 24px;
+    /* margin-right: 24px; */
+    color: 666666;
+    cursor: pointer;
+}
+.NavListItem:hover {
+    background-color: #e0e0e0;
+}
+.NavListItem:active {
+    background-color: #cfe5ff;
+}
+
+/* .NavListItem:disabled {
+    
+} */
+
+.NavListItem:first-child {
+    margin-left: 33px;
+}
+
+.NavListItem:last-child {
+    margin-right: 0;
+}
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover,  /* при наведении */
+a.text {
+    text-decoration: none;
+    color: #666;
+}
+
+.NavListItemLink:first-child:disabled {
+    color: #afafaf;
+}
+
+.NavListItemLink {
+    text-decoration: none;
+    color: #666666;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
